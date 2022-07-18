@@ -1,0 +1,50 @@
+body{
+  margin: 0px;
+}
+.top{background-image: url("top-banner.png");
+  background-repeat: no-repeat;
+}
+h1{font-size: 40px;}
+
+.highlight{color: orangered;}
+
+.half{
+  width: 40%;
+  margin-left: 4%;
+  padding: 2%;
+  float: left;
+ 
+}
+p{color: dimgray;}
+.link{background-color: tomato;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bolder;
+}
+.half img{width: 100%;}
+section{height: 500px;
+  padding: 20px;
+}
+.dream{background-image: url("dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 10vh;
+}
+.single{box-shadow: 5px 50px 90px dimgray;
+  height: 250px;
+ 
+}
+#side{
+ border-left: 7px solid;
+ border-image: linear-gradient(lightsalmon, tomato);
+ border-image-slice:1;}
+ #side1
+ {border-left: 7px solid;
+   border-image: linear-gradient(lightsalmon, tomato);
+   border-image-slice:1;}
+
+.last{text-align: center;
+  margin-top: 100px;
+}
